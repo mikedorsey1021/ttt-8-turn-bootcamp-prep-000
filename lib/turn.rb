@@ -36,7 +36,7 @@ end
 
 def turn (board)
   puts "Please enter 1-9:"
-  input = gets.strip
+  input = (gets.strip).to_i
   converted = input_to_index(input)
 
   if converted.between?(0, 8) == true
