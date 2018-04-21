@@ -39,8 +39,8 @@ def turn (board)
   input = gets.strip
 
   if input.between?(1, 9) == false
-    turn(board)
-  else
     move(board, input)
+  else
+    turn(board)
   end
 end
