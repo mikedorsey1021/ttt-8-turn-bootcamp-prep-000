@@ -38,7 +38,7 @@ def turn (board)
   puts "Please enter 1-9:"
   input = gets.strip
 
-  if input.between?(, 9) == false
+  if input.between?(1, 9) == false
     turn(board)
   else
     move(board, input)
