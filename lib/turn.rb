@@ -24,7 +24,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index (input)
-  return position = input.to_i - 1
+  return position = (input.to_i) - 1
 
 end
 
